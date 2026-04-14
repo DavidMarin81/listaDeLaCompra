@@ -115,11 +115,6 @@ app.delete('/items', async (req, res) => {
 // 🧪 Ruta de prueba
 const PORT = process.env.PORT || 3000;
 
-app.listen(PORT, () => {
-  console.log(`Servidor en puerto ${PORT}`);
-});
-
-
 // Servidor
 app.listen(process.env.PORT, () => {
   console.log(`Servidor en puerto ${process.env.PORT}`);
